@@ -1,3 +1,4 @@
-inputName = prompt("Guess my name");
-answer = inputName.toLowerCase() === "boss" ? "Correct" : "Wrong"
+let inputName = prompt("Guess my name");
+let answer = inputName.toLowerCase() === "boss" ? "Correct" : "Wrong"
+
 alert(answer)
